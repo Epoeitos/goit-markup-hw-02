@@ -70,12 +70,11 @@ font-family: "Raleway", sans-serif;
 }
 
 .section-h1 {
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07143;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #fff;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455;
 }
 .main-section-1 {
     background-color: #2e2f42;
@@ -93,11 +92,11 @@ font-family: "Raleway", sans-serif;
         background: #404bbf;
 }
 .h3 {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
 }
 
 .p {
@@ -135,4 +134,7 @@ font-family: "Raleway", sans-serif;
         height: 420px;
         background: #fff;
         
+}
+.main-section- {
+    background-color: #2e2f42;
 }
