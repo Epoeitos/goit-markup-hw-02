@@ -2,18 +2,21 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
-
 }
-ul, ol {
+
+ul,
+ol {
     list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
 
-}
 a {
-    text-decoration: none
-    ;
+    text-decoration: none;
 }
+
 .logo {
-font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -23,22 +26,19 @@ font-family: "Raleway", sans-serif;
 }
 
 .header-logo .logo-part {
-        
     color: #2e2f42;
 }
-
 
 .footer-logo .logo-part {
     color: #f4f4fd;
 }
 
-
 .nav-link {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .nav-link:hover,
@@ -47,94 +47,110 @@ font-family: "Raleway", sans-serif;
 .contacts-link:focus {
     color: #404bbf;
 }
+
 .contacts {
     font-style: normal;
 }
+
 .contacts-link {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .page-footer {
     background-color: #2e2f42;
 }
+
 .footer-text {
     font-weight: 400;
-        font-size: 16px;
+    font-size: 16px;
     line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #f4f4fd;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
 
-.section-h1 {
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: #434455;
-}
-.main-section-1 {
+.main-hero {
     background-color: #2e2f42;
-}
-.section-h1-button {
-    border-radius: 4px;
-        padding: 16px 32px;
-        width: 169px;
-        height: 56px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-            background: #4d5ae5;
-}
-.section-h1-button:hover {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background: #404bbf;
-}
-.h3 {
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 1.2;
-            letter-spacing: 0.02em;
-            color: #2e2f42;
+    text-align: center;
+    padding: 120px 0;
 }
 
-.p {
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.hero-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    cursor: pointer;
+    border: none;
+    margin-top: 24px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404bbf;
+}
+
+.main-features {
+    padding: 120px 0;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.features-item {
+    margin-bottom: 24px;
+}
+
+.features-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.features-text {
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
-.main-section-2 {
-   background: #f4f4fd;
+.main-team {
+    background-color: #f4f4fd;
+    padding: 120px 0;
 }
-.section-h2 {
 
+.team-item {
+    text-align: center;
+    margin-bottom: 24px;
 }
-.h2 {
- font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11111;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
+
+.main-portfolio {
+    padding: 120px 0;
 }
-.main-section-2-li {
-    border-radius: 0 0 4px 4px;
-        padding: 0px 0px 32px 0px;
-        width: 264px;
-        height: 380px;
-        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-            background: #fff;
-}
-.main-section-3-li {
-    width: 360px;
-        height: 420px;
-        background: #fff;
-        
-}
-.main-section- {
-    background-color: #2e2f42;
+
+.portfolio-item {
+    margin-bottom: 24px;
 }
