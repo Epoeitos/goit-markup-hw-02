@@ -76,6 +76,7 @@ a {
 }
 
 .main-title {
+    text-align: center;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -100,6 +101,7 @@ a {
 }
 
 .section-title {
+    text-align: center;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -127,3 +129,12 @@ a {
 .portfolio-item {
     background-color: #ffffff;
 }
+
+.main-team {
+    background-color: #F4F4FD;
+}
+
+.team-item {
+    background-color: #FFFFFF;
+}
+
